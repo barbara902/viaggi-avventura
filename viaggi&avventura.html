@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaggi & Avventura - Esplora il Mondo</title>
+    <link rel="stylesheet" href="viaggi&avventura.css">
+    <script src="https://kit.fontawesome.com/9e6a726a2c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="#hero">ViaggiAmo</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#galleria">Galleria</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+        <button class="nav-toggle" aria-label="Apri menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <aside class="sidebar">
+        <button class="sidebar-close" aria-label="Chiudi menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-nav-list">
+            <li><a href="#chi-siamo">Chi Siamo</a></li>
+            <li><a href="#servizi">Servizi</a></li>
+            <li><a href="#galleria">Galleria</a></li>
+            <li><a href="#contatti">Contatti</a></li>
+        </ul>
+        <div class="sidebar-contact">
+            <h3>Contattaci</h3>
+            <p>Email: info@viaggiamo.com</p>
+            <p>Tel: +39 123 456 7890</p>
+        </div>
+    </aside>
+
+    <main class="main-content-wrapper">
+
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Esplora il Mondo con ViaggiAmo</h1>
+                <p>Lasciati ispirare da avventure indimenticabili, scoperte affascinanti e paesaggi mozzafiato.</p>
+                <a href="#servizi" class="btn btn-hero">Scopri i Nostri Tour</a>
+            </div>
+        </section>
+
+        <section id="chi-siamo" class="about-section">
+            <div class="container">
+                <h2>Chi Siamo</h2>
+                <p>Noi di ViaggiAmo crediamo che viaggiare sia un'esperienza trasformativa. Dal 2000, abbiamo aiutato migliaia di persone a realizzare i loro sogni di viaggio, offrendo itinerari personalizzati e assistenza completa. La nostra passione per l'esplorazione e la conoscenza delle culture ci spinge a creare esperienze uniche e autentiche.</p>
+                <p>Siamo un team di esperti viaggiatori, guide locali e pianificatori logistici, tutti uniti dall'amore per l'avventura. Il nostro obiettivo è rendere ogni tuo viaggio sicuro, confortevole e indimenticabile, permettendoti di immergerti completamente nella bellezza del mondo.</p>
+            </div>
+        </section>
+
+        <section id="servizi" class="services-section">
+            <div class="container">
+                <h2>I Nostri Servizi</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-service="tours">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Tour Guidati</h3>
+                        <p>Itinerari unici con guide esperte per esplorare le meraviglie del mondo.</p>
+                        <a href="#" class="btn btn-card">Dettagli</a>
+                    </div>
+                    <div class="service-card" data-service="custom">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Viaggi Personalizzati</h3>
+                        <p>Crea il viaggio dei tuoi sogni su misura per le tue esigenze e desideri.</p>
+                        <a href="#" class="btn btn-card">Dettagli</a>
+                    </div>
+                    <div class="service-card" data-service="support">
+                        <i class="fas fa-headset"></i>
+                        <h3>Supporto 24/7</h3>
+                        <p>Assistenza completa prima, durante e dopo il tuo viaggio, sempre al tuo fianco.</p>
+                        <a href="#" class="btn btn-card">Dettagli</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galleria" class="gallery-section-full">
+            <div class="container">
+                <h2>Le Nostre Avventure</h2>
+                <div class="image-gallery">
+
+                    <div class="gallery-item" data-category="montagna" data-orientation="landscape">
+                        <div class="image-wrapper">
+                            <img src="https://picsum.photos/id/1015/400/300" alt="Montagne innevate">
+                        </div>
+                        <div class="item-overlay"><span>Esplorazione Alpina</span></div>
+                    </div>
+
+                    <div class="gallery-item" data-category="spiaggia" data-orientation="portrait">
+                        <div class="image-wrapper">
+                            <img src="https://as2.ftcdn.net/v2/jpg/04/99/47/41/1000_F_499474111_5I5GESoQzmo9z5498AjbjrNFYQ1Nzbqn.jpg" alt="Spiaggia tropicale al tramonto">
+                        </div>
+                        <div class="item-overlay"><span>Relax Tropicale</span></div>
+                    </div>
+
+                    <div class="gallery-item" data-category="citta" data-orientation="landscape" data-featured="true">
+                        <div class="image-wrapper">
+                            <img src="https://www.meteoweb.eu/wp-content/uploads/2021/03/bangkok.jpg" alt="Skyline di una grande città">
+                        </div>
+                        <div class="item-overlay"><span>Vibrazioni Urbane</span></div>
+                    </div>
+
+                    <div class="gallery-item" data-category="deserto" data-orientation="landscape">
+                        <div class="image-wrapper">
+                            <img src="https://static.turisanda.it/.imaging/default/dam/turisanda.it/magazine/africa/deserto-del-sahara-dove-si-trova-cosa-si-puo-fare/670_330_erg_chebbi.jpg/jcr:content.jpg" alt="Deserto roccioso con cielo blu">
+                        </div>
+                        <div class="item-overlay"><span>Silenzio del Deserto</span></div>
+                    </div>
+
+                    <div class="gallery-item" data-category="foresta" data-orientation="portrait">
+                        <div class="image-wrapper">
+                            <img src="https://static.vecteezy.com/ti/foto-gratuito/p1/5296273-bella-cascata-e-verde-foresta-luogo-di-riposo-e-tempo-rilassante-gratuito-foto.jpg" alt="Foresta pluviale lussureggiante">
+                        </div>
+                        <div class="item-overlay"><span>Mistero della Foresta</span></div>
+                    </div>
+
+                    <div class="gallery-item" data-category="empty">
+                        <div class="image-wrapper">
+                            </div>
+                        <div class="item-overlay">
+                            <span></span> </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contatti" class="contact-section">
+            <div class="container">
+                <h2>Contattaci</h2>
+                <p>Hai domande? Contattaci e ti aiuteremo a pianificare la tua prossima avventura!</p>
+                <address>
+                    Via dell'Avventura, 10<br>
+                    00100 Roma, Italia<br>
+                    Email: <a href="mailto:info@viaggiamo.com">info@viaggiamo.com</a><br>
+                    Tel: +39 123 456 7890
+                </address>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        
+            <p>&copy; 2025 ViaggiAmo. Tutti i diritti riservati.</p>
+        
+    </footer>
+
+    <script>
+        // Placeholder per JS futuro: apertura/chiusura sidebar e smooth scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const navToggle = document.querySelector('.nav-toggle');
+            const sidebar = document.querySelector('.sidebar');
+            const sidebarClose = document.querySelector('.sidebar-close');
+            const navLinks = document.querySelectorAll('.main-nav a, .sidebar-nav-list a, .btn-hero');
+
+            if (navToggle) {
+                navToggle.addEventListener('click', () => {
+                    sidebar.classList.add('is-open');
+                });
+            }
+            if (sidebarClose) {
+                sidebarClose.addEventListener('click', () => {
+                    sidebar.classList.remove('is-open');
+                });
+            }
+
+            // Smooth scroll
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        window.scrollTo({
+                            top: targetSection.offsetTop - (document.querySelector('.main-header')?.offsetHeight || 0), // Adjust for fixed header
+                            behavior: 'smooth'
+                        });
+                        // Close sidebar if open on mobile
+                        if (sidebar.classList.contains('is-open')) {
+                            sidebar.classList.remove('is-open');
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
